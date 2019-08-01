@@ -3,10 +3,10 @@
     "description": "Laravel Beanstalkd Queue Throttle",
     "keywords": ["laravel", "lumen", "queue", "redis", "beanstalkd", "throttle"],
     "require": {
-        "predis/predis": "^1.0",
-        "pda/pheanstalk": "^3.1",
-        "illuminate/queue": "^5.1",
-        "illuminate/support": "^5.1"
+        "predis/predis": "^1.1",
+        "pda/pheanstalk": "^4.0",
+        "illuminate/queue": "^5.8",
+        "illuminate/support": "^5.8"
     },
     "autoload": {
         "psr-4": {
