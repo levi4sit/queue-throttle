@@ -19,7 +19,7 @@ class QueueThrottleServiceProvider extends ServiceProvider
 
             return new Throttle(
                 new RedisClient($redisHost),
-                Pheanstalk::create($beanstalkdHost),
+                Pheanstalk::create($beanstalkdHost)
             );
         });
     }
